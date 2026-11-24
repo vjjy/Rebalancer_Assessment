@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-rebalancing-assessment",
+  "version": "1.0.0",
+  "description": "Playwright automated tests for portfolio rebalancing assessment",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:trace": "playwright test --trace on",
+    "trace:open": "playwright show-trace",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "typescript": "5.9.2"
+  }
+}
